@@ -93,7 +93,7 @@ opt_input(string const &arg) {
 	if (!iss->good()) {
 		cerr << "cannot open " << arg << "." << endl;
 		// EXIT: Terminacion del programa en su totalidad
-		exit(1);
+		exit(2);
 	}
 }
 
@@ -119,7 +119,7 @@ opt_output(string const &arg) {
 		     << "."
 		     << endl;
 		// EXIT: Terminacion del programa en su totalidad
-		exit(1);
+		exit(2);
 	}
 }
 
@@ -139,7 +139,7 @@ opt_data(string const &arg) {
 	if (!idss->good()) {
 		cerr << "cannot open " << arg << "." << endl;
 		// EXIT: Terminacion del programa en su totalidad
-		exit(1);
+		exit(2);
 	}
 }
 
